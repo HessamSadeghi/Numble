@@ -50,14 +50,16 @@ Follow these instructions to set up the project locally.
 ### Prerequisites
 
 - **Node.js** (version 14 or above)
-- bashnpm install -g pnpm
+
+````bash
+- npm install -g pnpm
 
 ### Installation
-
-1.  bashgit clone https://github.com/HessamSadeghi/Numble.git
-2.  bashcd Numble
-3.  bashpnpm install
-4.  bashpnpm run dev
+```bash
+1.  git clone https://github.com/HessamSadeghi/Numble.git
+2.  cd Numble
+3.  pnpm install
+4.  pnpm run dev
 5.  Visit http://localhost:5173/ in your browser to see the game in action.
 
 ## 🎮 Usage
@@ -105,15 +107,18 @@ Follow these instructions to set up the project locally.
 Contributions are welcome! Follow these steps to contribute:
 
 1.  **Fork the repository**
-2.  bashgit checkout -b feature/your-feature-name
+```bash
+2.  git checkout -b feature/your-feature-name
 3.  **Make your changes**
-4.  bashgit commit -m "Add your message"
-5.  bashgit push origin feature/your-feature-name
+```bash
+4.  git commit -m "Add your message"
+```bash
+5.  git push origin feature/your-feature-name
 6.  **Open a Pull Request**
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -122,3 +127,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Zustand** for simple and effective state management.
 - **Tailwind CSS** for utility-first CSS that accelerates styling.
 - **SWC** for blazing-fast compilation.
+````

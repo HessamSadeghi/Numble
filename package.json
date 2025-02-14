@@ -1,7 +1,18 @@
 {
-  "name": "numbers",
+  "name": "numble",
+  "description": "Wordle with Numbers",
+  "license": "MIT",
+  "author": "Hessam Sadeghi",
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "zustand",
+    "wordle",
+    "numble"
+  ],
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
